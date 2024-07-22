@@ -134,5 +134,6 @@ public class operaceMath {
     }
     public void operaceOdmocnina() {
         vyberOperace();
+
     }
 }

@@ -1,15 +1,17 @@
 import java.util.Scanner;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
         Scanner vstup = new Scanner(System.in);
         String status;
+        String username;
         operaceMath vyber = new operaceMath();
 
+        System.out.print("Kalkulačka | Napiš své uživatelské jméno: ");
+        username = vstup.nextLine();
+
         System.out.println("------------------------------------------------------------------------------");
-        System.out.println("                                Kalkulačka");
+        System.out.println("                    | - - - { Kalkulačka } - - - |   Username: " + username    );
         System.out.println("    LOBBY:");
         System.out.println("        - MENU, CAS, 0 (Odejit)");
         System.out.println("------------------------------------------------------------------------------\n");
