@@ -46,7 +46,7 @@ public class operaceMath {
         System.out.println("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
         Cislo1 = vstup.nextFloat();
         System.out.println("- - - - - - - - - - - - - - - - - - { calculator@java } - - - - - - - - - - - - - - - - - - - - - - - - -");
-        System.out.println("Kalkulačka - Plus | Jako první hodnotu si nastavil " + Cislo1 + " { " + Cislo1 + " + ? }. Nyní prosím vyber druhou hodnotu.");
+        System.out.println("Kalkulačka - Plus | Jako první hodnotu si nastavil " + Cislo1 + " { " + Cislo1 + " + ? }. | Nyní prosím vyber druhou hodnotu.");
         System.out.println("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
         Cislo2 = vstup.nextFloat();
         float vypocet = Cislo1 + Cislo2;
@@ -64,7 +64,7 @@ public class operaceMath {
         System.out.println("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
         Cislo1 = vstup.nextFloat();
         System.out.println("- - - - - - - - - - - - - - - - - - { calculator@java } - - - - - - - - - - - - - - - - - - - - - - - - -");
-        System.out.println("Kalkulačka - Mínus | Jako první hodnotu si nastavil " + Cislo1 + " { " + Cislo1 + " - ? }. Nyní prosím vyber druhou hodnotu.");
+        System.out.println("Kalkulačka - Mínus | Jako první hodnotu si nastavil " + Cislo1 + " { " + Cislo1 + " - ? }. | Nyní prosím vyber druhou hodnotu.");
         System.out.println("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
         Cislo2 = vstup.nextFloat();
         float vypocet = Cislo1 - Cislo2;
@@ -83,7 +83,7 @@ public class operaceMath {
         System.out.println("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
         Cislo1 = vstup.nextFloat();
         System.out.println("- - - - - - - - - - - - - - - - - - { calculator@java } - - - - - - - - - - - - - - - - - - - - - - - - -");
-        System.out.println("Kalkulačka - Krát | Jako první hodnotu si nastavil " + Cislo1 + " { " + Cislo1 + " * ? }. Nyní prosím vyber druhou hodnotu.");
+        System.out.println("Kalkulačka - Krát | Jako první hodnotu si nastavil " + Cislo1 + " { " + Cislo1 + " * ? }. | Nyní prosím vyber druhou hodnotu.");
         System.out.println("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
         Cislo2 = vstup.nextFloat();
         float vypocet = Cislo1 * Cislo2;
@@ -102,7 +102,7 @@ public class operaceMath {
         System.out.println("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
         Cislo1 = vstup.nextFloat();
         System.out.println("- - - - - - - - - - - - - - - - - - { calculator@java } - - - - - - - - - - - - - - - - - - - - - - - - -");
-        System.out.println("Kalkulačka - Děleno | Jako první hodnotu si nastavil " + Cislo1 + " { " + Cislo1 + " / ? }. Nyní prosím vyber druhou hodnotu.");
+        System.out.println("Kalkulačka - Děleno | Jako první hodnotu si nastavil " + Cislo1 + " { " + Cislo1 + " / ? }. | Nyní prosím vyber druhou hodnotu.");
         System.out.println("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
         Cislo2 = vstup.nextFloat();
         if(Cislo2 == 0) {
